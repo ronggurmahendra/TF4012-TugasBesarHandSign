@@ -1,0 +1,5 @@
+# VSCode Workspace
+Tubes.code-workspace
+
+# Data(so git dont get overloaded with datas)
+/Data/*
