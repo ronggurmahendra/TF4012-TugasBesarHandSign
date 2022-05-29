@@ -2,7 +2,7 @@ import cv2
 outDir = "./Data/Images/%d.jpg"
 
 videoFile = input('Enter Video File Name (file akan di write ke directory ./Data/Images): ')
-videoFile ='./Data/Video/RawData.mp4'
+videoFile ='./Data/Video/Data.mp4'
 vidcap = cv2.VideoCapture(videoFile)
 success,image = vidcap.read()
 count = 0
